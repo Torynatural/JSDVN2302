@@ -21,6 +21,7 @@ public class FISDemo {
         while ((data = fis.read()) != -1){
             System.out.print((char) data);
         }
+        fis.close();
     }
 
 }
